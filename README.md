@@ -1,7 +1,7 @@
 # 📊 Sales Data Analysis Project
 
 ## 📌 Overview
-This project is a complete exploratory data analysis (EDA) of sales data using Python. It helps understand business performance across regions, categories, and time.
+This project performs exploratory data analysis (EDA) on sales data to extract business insights such as profit trends, weekly/monthly sales, and loss analysis.
 
 ---
 
@@ -13,42 +13,40 @@ This project is a complete exploratory data analysis (EDA) of sales data using P
 - Seaborn
 
 ---
+## 🚀 Key Features
 
-## 📂 Project Steps
-
-### 1. Data Cleaning
-- Removed duplicates
-- Handled missing values
-- Converted date column
-
-### 2. Feature Engineering
-- Created Profit column
-- Extracted Month and Year
-
-### 3. Exploratory Data Analysis
-- Sales by Region
-- Sales by Product Category
-- Sales by Sales Representative
-- Monthly Sales Trend
-
+- Data cleaning and preprocessing
+- Removal of duplicates and handling missing values
+- Profit calculation and loss detection
+- Weekly and monthly sales analysis
+- Year-wise sales trends
+- Category-wise and region-wise performance analysis
+- Data visualization using Matplotlib and Seaborn
 ---
 
 ## 📊 Visualizations
 
-### Sales by Region
-![Sales by Region](images/sales_by_region.png)
+The following visualizations are generated:
 
-### Product Category Sales
-![Category Sales](images/category_sales.png)
-
-### Monthly Trend
-![Monthly Trend](images/monthly_trend.png)
-
-### Profit Distribution
-![Profit](images/profit_distribution.png)
+- Sales by Region
+- Product Category Sales
+- Monthly Sales Trend
+- Weekly Sales Trend
+- Monthly (Year-Month) Trend
+- Profit Distribution
+- Profit vs Loss Analysis
 
 ---
 
+## 📈 Key Insights
+
+- Identified high-performing sales regions
+- Analyzed seasonal sales trends (monthly & weekly)
+- Detected profit and loss patterns
+- Found best-performing product categories
+- Provided business-level insights for decision making
+
+---
 ## 🚀 How to Run
 
 ```bash
